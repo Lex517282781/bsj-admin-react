@@ -1,13 +1,15 @@
-import React from 'react';
-import { Button } from 'antd';
+import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Button type="primary">Primary</Button>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <p>
+        <FormattedMessage id="app.test" />
+      </p>
+    );
+  }
 }
 
 export default App;
