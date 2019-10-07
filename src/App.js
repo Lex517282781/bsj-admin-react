@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 // import { FormattedMessage } from 'react-intl'; // <FormattedMessage id="app.test" />
 import BasicLayout from '@/layouts/BasicLayout';
-import './App.css';
+import UserLayout from '@/layouts/UserLayout';
+import './App.less';
 
 class App extends Component {
   render() {
-    return <BasicLayout></BasicLayout>;
+    return 111;
   }
 }
 

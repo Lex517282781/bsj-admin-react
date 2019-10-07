@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
 import App from './App';
-import './index.css';
+import './index.less';
 import zh_CN from './locales/zh-CN';
 import EN_US from './locales/en-US';
 import * as serviceWorker from './serviceWorker';

@@ -1,6 +1,6 @@
 export default [
   {
-    path: '/user',
-    component: '../layouts/UserLayout'
+    path: '/',
+    component: '@/layouts/BasicLayout'
   }
 ];
